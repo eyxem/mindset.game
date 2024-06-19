@@ -11,7 +11,7 @@ function atualizarStatus() {
 function decisao1() {
     dinheiro -= 100;
     satisfacao += 10;
-    produtividade += 5
+    produtividade += 5;
     atualizarStatus();
     verificarEventos();
 }
